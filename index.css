@@ -1,0 +1,107 @@
+body{
+    display: block;
+    background-color: #808080;
+}
+
+.menu{
+    width: 100%;
+    height: 8rem;
+    background-color: #5A2D82;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.logo{
+    width: 270px;
+    left: 2rem;
+}
+
+.titulo{
+    margin-left: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.item-card{
+    position: relative;
+    width: 380px;
+    height: 640px;
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-right: 10px;
+    left: 6rem;
+    align-items: center;
+    background-color: rgb(207, 207, 207);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0,7);
+    display: inline-block;
+}
+
+.img-card{
+    width: 100%;
+    height: 403px;
+    background-image: url(img/Tenis-Nike-Air-Force-1\ foto1.webp);
+    background-size: 100%;
+    transition: 0.4s;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.img-card:hover{
+    transition: 0.4s;
+    background-image: url(img/Tenis-Nike-Air-Force-1\ foto\ 2.webp);
+    background-size: 100%;
+}
+
+.promoçao{
+    width: 100%;
+    height: 28px;
+    background-color: #34CA90;
+    text-align: center;
+    border: 0;
+    font-size: 1.3rem;
+}
+
+h3{
+    position: relative;
+    top: 5px;
+    color: #DFFFFF;
+}
+
+.card-txt{
+    width: 100%;
+    height: 217px;
+    position: relative;
+}
+
+.nome{
+    font-size: 3rem;
+    color: #333;
+    padding-top: 10px;
+    text-transform: lowercase;
+    padding-left: 5%;
+}
+
+.desconto{
+    text-decoration: line-through;
+    font-size: 1.5rem;
+    padding-top: 40px;
+    text-transform: lowercase;
+    padding-left: 5%;
+}
+
+.preço{
+    font-size: 2.5rem;
+    padding-top: 6px;
+    font-weight: bold;
+    padding-left: 5%;
+}
+
+.parcela{
+    font-size: 2rem;
+    padding-top: 6px;
+    padding-left: 5%;
+}
